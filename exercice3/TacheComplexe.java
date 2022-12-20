@@ -6,7 +6,7 @@ import java.util.List;
 public class TacheComplexe implements Tache {
 
     private String nom;
-    private List<Tache> sousRepertoire = new ArrayList<Tache>();
+    private List<Tache> sousTaches = new ArrayList<Tache>();
 
     public TacheComplexe(String nom) {
         this.nom = nom;
@@ -19,7 +19,7 @@ public class TacheComplexe implements Tache {
     public int getCout() {
         int totalCount = 0;
 
-        for(Tache tache: sousRepertoire) {
+        for(Tache tache: sousTaches) {
             totalCount += tache.getCout();
         }
 
@@ -27,10 +27,10 @@ public class TacheComplexe implements Tache {
     }
 
     public void ajouter(Tache newTache) {
-        sousRepertoire.add(newTache);
+        sousTaches.add(newTache);
     }
 
     public void remove(Tache tache) {
-        sousRepertoire.remove(tache);
+        sousTaches.remove(tache);
     }
 }
