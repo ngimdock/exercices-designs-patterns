@@ -1,6 +1,6 @@
 # Exercices corrigés sur les designs patterns
 
-Dans ce dépôt, vous trouverez quatre exercices concres pratiques et corrigés pour une bonne compréhension et maîtrise des modèles de conception.
+Dans ce dépôt, vous trouverez quatre exercices concret, pratique et corrigés pour une bonne compréhension et maîtrise des patrons de conception.
 
 ## Astuce
 
