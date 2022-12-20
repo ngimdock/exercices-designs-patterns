@@ -1,5 +1,5 @@
 
-public class Main {
+public class Client {
     public static void main(String[] args) {
 
         Random random1 = Random.getInstance();

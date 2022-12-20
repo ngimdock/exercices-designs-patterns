@@ -9,13 +9,13 @@
 ## Step 2: compiler le programme
 
 ```bash
-    javac Main.java
+    javac Client.java
 ```
 
 ## Step 3: Exécuter le programme
 
 ```bash
-    java Main
+    java Client
 ```
 
 That's all ✨✨
